@@ -1,0 +1,108 @@
+<!-- Array Methods:
+sort()      reverse()
+pop()       push()
+shift()     unshift()
+concat()    join()
+slice()     splice()
+isArray()   indexOf()
+lastIndexOf()   entries()
+every()     filter()
+find()      findIndex()
+includes()  some()
+forEach()   toString()
+valueOf()   fill()
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Method </title>
+</head>
+<body>
+    <script>
+        // var a = ["Sanjay","Aman","Rehman","Karan"];
+        // document.write("Orignal= "+a+"<br>");
+        // a.sort();
+        // document.write("Sort= "+a+"<br>");
+        // a.reverse();
+        // document.write("Reverse Sort= "+a);
+
+
+        //  var a = ["Sanjay","Aman","Rehman","Karan"];
+        // document.write("Orignal= "+a+"<br><br>");
+        // a.pop();
+        // document.write("pop= "+a+"<br><br>");
+        // a.push("Rahul");
+        // document.write("Push new element = "+a);
+
+        //  var a = ["Sanjay","Aman","Rehman","Karan"];
+        // document.write("Orignal= "+a+"<br>");
+        // a.shift();
+        // document.write("shift= "+a+"<br>");
+        // a.unshift("Rahul");
+        // document.write("Unshift 'Rahul'= "+a);
+
+        // var a = ["Sanjay","Aman","Rehman","Karan"];
+        // var b = ["Rahul","Salman"];
+        // var c = b.concat(a);
+        // document.write(c + "<br><br>");
+        // var d = c.join(" $ ");
+        // document.write(d)
+        
+        // var a = ["Sanjay","Aman","Rehman","Rahul"];
+        // document.write(a + "<br><br>");
+        
+        // a.splice(2,2);
+        
+        // document.write(a + "<br><br>");
+        // // var b =a.slice(-2);
+        // document.write(b + "<br><br>");
+        
+        // // var a = "Rahul";
+        // var a = ["Sanjay","Aman","Rehman"];
+        // document.write(a + "<br><br>");
+        
+        // if(Array.isArray(a) == true){
+        //     document.write("This is an Array.");
+        // }else{
+        //     document.write("This is not an Array.");
+        // }
+
+        // var a = ["Sanjay","Aman","Rehman","Aman","Rahul"];
+        // document.write(a + "<br><br>");
+        
+        // var b = a.indexOf("Aman");
+        // document.write(b + "<br><br>");
+        
+        // var c = a.lastIndexOf("Aman");
+        // document.write(c+"<br><br>");
+        
+        // var a = ["Sanjay","Aman","Rehman","Aman","Rahul"];
+        // document.write(a + "<br><br>");
+
+        // var b = a.includes("Sita");
+        // document.write(b)
+        
+
+        var ages = [10,20,30,40];
+        document.write(ages + "<br><br>");
+        
+        var b = ages.some(checkAdult);
+        document.write(b+"<br>");
+
+        function checkAdult(age) {
+            return age >= 18;
+            
+        }
+        
+        
+        var adultAge = 18
+        
+        
+
+
+    </script>
+</body>
+</html>
