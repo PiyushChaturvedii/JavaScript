@@ -21,11 +21,26 @@ var a = {
             fname : "Ram",
             lname : "Kumar",
             age : 25,
-            email: "ramkumar@yahoo.net"
+            email: "ramkumar@yahoo.net",
+            favMovies: ['Dhoom','Sholay','Hum'],
+            living: {
+                'city' : "Delhi",
+                'country': 'India'
+            },
+            salary: function(){
+                return 25000;
+            },
+            fullname : function() {
+                return this.fname + " " + this.lname;
+            }
         }
 
-        document.write(a);
+        // document.write(a.fname);
+        // document.write(a.favMovies);
+        // document.write(a.fullname());
+        document.write(a.living.city);
         console.log(a);
+        console.log(a.fname);
     </script>
 </body>
 </html>
